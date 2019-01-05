@@ -1,0 +1,94 @@
+.slider-image-container
+	width: 1400px
+	height: 418px
+	background: black
+	position: relative
+
+	.text-container
+		display: flex
+		align-items: center
+		flex-direction: column
+		padding-top: 115px
+
+		span
+			color: #fff
+
+
+		.title
+			letter-spacing: 8px
+			text-align: center
+			font:
+				family: "yugoB"
+				size: 60px
+
+		.desc, .desc2
+			letter-spacing: 2px
+			text-align: center
+			font:
+				family: "yugo"
+				weight: 600
+				size: 16px
+
+		.desc
+			margin-top: 30px
+		.desc2
+			margin-top: 0px
+
+.first-image
+	background-image: url('../img/slider01.png')
+
+.second-image
+	background-image: url('../img/slider02.png')
+
+.third-image
+	background-image: url('../img/slider03.png')
+
+.slide
+	background-size: cover
+
+
+.btn-slider-left, .btn-slider-right
+	position: absolute
+	top: -110px
+	cursor: pointer
+
+.btn-slider-left
+	left: 0
+
+.btn-slider-right
+	right: 0
+
+.control-wrapper
+	margin: 0 auto
+	width: 1080px
+	margin-top: -125px
+	position: relative
+
+.dot-container
+	position: absolute
+	text-align: center
+	left: 500px
+	top: 100px
+
+	.dot
+		width: 7px
+		height: 7px
+		display: inline-block
+		background: #f9f9f9
+		padding: 5px
+		margin-right: 16px
+		border-radius: 50%
+		cursor: pointer
+
+	.dot:hover
+		background: #e7ba2f
+
+	.active
+		width: 7px
+		height: 7px
+		display: inline-block
+		background: #e7ba2f
+		padding: 5px
+		margin-right: 16px
+		border-radius: 50%
+		cursor: pointer

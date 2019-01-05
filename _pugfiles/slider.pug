@@ -1,0 +1,33 @@
+.outter-wrapper
+	.slider-image-container.slide.first-image
+
+		.inner-wrapper
+			.text-container.first-text
+				span.title キャッチコピーが入ります。
+				span.desc サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+				span.desc2 サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+	.slider-image-container.slide.second-image
+
+		.inner-wrapper
+			.text-container.second-text
+				span.title キャッチコピーが入ります。
+				span.desc サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+				span.desc2 サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+
+	.slider-image-container.slide.third-image
+
+		.inner-wrapper
+			.text-container.third-text
+				span.title キャッチコピーが入ります。
+				span.desc サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+				span.desc2 サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+	.control-wrapper
+		a(onclick = "plusIndex(-1)")
+			img(src="assets/img/left-icon.png").btn-slider-left#prev
+		a(onclick = "plusIndex(+1)")
+			img(src="assets/img/right-icon.png").btn-slider-right#next
+
+		.dot-container
+			span(onclick="currentDot(1)").dot.dot-selector
+			span(onclick="currentDot(2)").dot.dot-selector
+			span(onclick="currentDot(3)").dot.dot-selector
