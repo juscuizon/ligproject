@@ -410,7 +410,7 @@ a.to-top {
       margin-bottom: 20px; }
 
 .footer-wrapper {
-  width: 1400px;
+  min-width: 1400px;
   height: 47px;
   margin-top: 76px;
   background: #111; }
